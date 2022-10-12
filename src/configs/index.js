@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
     app:{
-       port: 22022, 
+       port: 8888, 
     },
     router:{
         prefix: '/api'
