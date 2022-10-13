@@ -5,7 +5,6 @@ const mainController = require('../controllers/main')
 const authController = require('../controllers/auth')
 const userController = require('../controllers/user')
 const { user } = require('../configs')
-  
 const routes = [
     {
         method:'get',

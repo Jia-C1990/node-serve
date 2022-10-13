@@ -38,3 +38,6 @@ app.use(router.routes())
 app.listen(configs.app.port,()=>{
     console.log(`服务启动成功：http://localhost:${configs.app.port}`);
 })
+
+const { accessLogger } = require('./utils/logger');
+app.use(accessLogger())
